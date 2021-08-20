@@ -1,0 +1,403 @@
+{
+  "characters": {
+    "amber": {
+      "title": "Championne de planage",
+      "allegiance": "Ordre de Favonus",
+      "rarity": 4,
+      "weapon": "Arc",
+      "element": "feu",
+      "birthday": "10/07",
+      "description": "Une jeune fille pleine d'énergie. Elle est la seule et unique Éclaireuse de l'Ordre de Favonius.",
+      "images": {
+        "faceIcon": "https://genshin.honeyhunterworld.com/img/char/amber_face_70.png",
+        "sideIcon": "https://genshin.honeyhunterworld.com/img/char/amber_side_70.png",
+        "gachaCard": "https://genshin.honeyhunterworld.com/img/char/amber_gacha_card_70.png",
+        "gachaSplash": "https://genshin.honeyhunterworld.com/img/char/amber_gacha_splash_70.png",
+        "face": "https://genshin.honeyhunterworld.com/img/scr/char/10000021/face_70.png",
+        "halfFace": "https://genshin.honeyhunterworld.com/img/scr/char/10000021/half_face_70.png",
+        "profile": "https://genshin.honeyhunterworld.com/img/scr/char/10000021/profile_70.png",
+        "weaponPose": "https://genshin.honeyhunterworld.com/img/scr/char/10000021/weapon_70.png"
+      },
+      "misc": {
+        "nameCard": {
+          "name": "Amber - Baron Lapinou",
+          "rarity": 4,
+          "icon": "https://genshin.honeyhunterworld.com/img/cardicon/i_7003.png",
+          "profileBackground":"https://genshin.honeyhunterworld.com/img/cardicon/i_7003_profile.png",
+          "partyBackground": "https://genshin.honeyhunterworld.com/img/cardicon/i_7003_party.png"
+        },
+        "food": {
+          "name": "Super steak de l'Éclaireuse",
+          "rarity": 1,
+          "effect":"Réanime un personnage et restaure 10 % des PV max, puis encore 150 PV supplémentaires.",
+          "recipe": [
+            {
+              "name": "amber",
+              "type": "character",
+              "size": 1
+            },
+            {
+              "name": "Viande crue",
+              "type": "ingredients",
+              "size": 2
+            }
+          ]
+        }
+      },
+      "stats": [
+        {
+          "level": 1,
+          "baseHealth": 793,
+          "baseAttack": 19,
+          "baseDefence": 50,
+          "pourcentAttack": 0,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 20,
+          "baseHealth": 2038,
+          "baseAttack": 48,
+          "baseDefence": 129,
+          "pourcentAttack": 0,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 40,
+          "baseHealth": 3940,
+          "baseAttack": 93,
+          "baseDefence": 250,
+          "pourcentAttack": 0,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 50,
+          "baseHealth": 5016,
+          "baseAttack": 118,
+          "baseDefence": 318,
+          "pourcentAttack": 6,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 60,
+          "baseHealth": 6233,
+          "baseAttack": 147,
+          "baseDefence": 396,
+          "pourcentAttack": 12,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 70,
+          "baseHealth": 7309,
+          "baseAttack": 172,
+          "baseDefence": 464,
+          "pourcentAttack": 12,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 80,
+          "baseHealth": 8385,
+          "baseAttack": 189,
+          "baseDefence": 532,
+          "pourcentAttack": 18,
+          "rateCritic": 5,
+          "damageCritic": 50
+        }
+      ],
+      "ascension": {
+        "levels": [
+          {
+            "level": "20+",
+            "items": [
+              {
+                "name": "Eclat d'agate agnidus",
+                "size": 1
+              },
+              {
+                "name": "Herbe a lampe",
+                "size": 3
+              },
+              {
+                "name": "Pointe de flèche robuste",
+                "size": 3
+              },
+              {
+                "name": "Mora",
+                "size": 20000
+              }
+            ]
+          },
+          {
+            "level": "40+",
+            "items": [
+              {
+                "name": "Fragement d'agate agnidus",
+                "size": 3
+              },
+              {
+                "name": "Graine de feu",
+                "size": 2
+              },
+              {
+                "name": "Herbe a lampe",
+                "size": 10
+              },
+              {
+                "name": "Pointe de flèche robuste",
+                "size": 15
+              },
+              {
+                "name": "Mora",
+                "size": 40000
+              }
+            ]
+          },
+          {
+            "level": "50+",
+            "items": [
+              {
+                "name": "Fragement d'agate agnidus",
+                "size": 6
+              },
+              {
+                "name": "Graine de feu",
+                "size": 4
+              },
+              {
+                "name": "Herbe a lampe",
+                "size": 20
+              },
+              {
+                "name": "Pointe de flèche aiguisée",
+                "size": 12
+              },
+              {
+                "name": "Mora",
+                "size": 40000
+              }
+            ]
+          },
+          {
+            "level": "60+",
+            "items": [
+              {
+                "name": "Morceau d'agate agnidus",
+                "size": 3
+              },
+              {
+                "name": "Graine de feu",
+                "size": 8
+              },
+              {
+                "name": "Herbe a lampe",
+                "size": 45
+              },
+              {
+                "name": "Pointe de flèche aiguisée",
+                "size": 18
+              },
+              {
+                "name": "Mora",
+                "size": 80000
+              }
+            ]
+          },
+          {
+            "level": "70+",
+            "items": [
+              {
+                "name": "Morceau d'agate agnidus",
+                "size": 6
+              },
+              {
+                "name": "Graine de feu",
+                "size": 12
+              },
+              {
+                "name": "Herbe a lampe",
+                "size": 45
+              },
+              {
+                "name": "Pointe de flèche usée",
+                "size": 12
+              },
+              {
+                "name": "Mora",
+                "size": 100000
+              }
+            ]
+          },
+          {
+            "level": "80+",
+            "items": [
+              {
+                "name": "Pierre d'agate agnidus",
+                "size": 6
+              },
+              {
+                "name": "Graine de feu",
+                "size": 20
+              },
+              {
+                "name": "Herbe a lampe",
+                "size": 60
+              },
+              {
+                "name": "Pointe de flèche usée",
+                "size": 24
+              },
+              {
+                "name": "Mora",
+                "size": 120000
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "level": 2,
+            "items": [
+              {
+                "name": "Enseignement de la Liberté",
+                "size": 3
+              },
+              {
+                "name": "Pointe de flèche robuste",
+                "size": 6
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 2
+              },
+              {
+                "name": "Pointe de flèche aiguisée",
+                "size": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 4
+              },
+              {
+                "name": "Pointe de flèche aiguisée",
+                "size": 4
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 6
+              },
+              {
+                "name": "Pointe de flèche aiguisée",
+                "size": 6
+              }
+            ]
+          },
+          {
+            "level": 6,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 9
+              },
+              {
+                "name": "Pointe de flèche aiguisée",
+                "size": 9
+              }
+            ]
+          },
+          {
+            "level": 7,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 4
+              },
+              {
+                "name": "Pointe de flèche usée",
+                "size": 4
+              },
+              {
+                "name": "Souffle de Stormterror",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 6
+              },
+              {
+                "name": "Pointe de flèche usée",
+                "size": 6
+              },
+              {
+                "name": "Souffle de Stormterror",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "level": 9,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 12
+              },
+              {
+                "name": "Pointe de flèche usée",
+                "size": 9
+              },
+              {
+                "name": "Souffle de Stormterror",
+                "size": 2
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 16
+              },
+              {
+                "name": "Pointe de flèche usée",
+                "size": 12
+              },
+              {
+                "name": "Souffle de Stormterror",
+                "size": 2
+              },
+              {
+                "name": "Couronne de la sagesse",
+                "size": 1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

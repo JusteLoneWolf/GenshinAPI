@@ -1,0 +1,77 @@
+{
+  "eclat d'agate agnidus": {
+    "name": "Éclat d'agate agnidus",
+    "rarity": 2,
+    "icon": "https://genshin.honeyhunterworld.com/img/upgrade/gem/i_311.png",
+    "lootBy": [
+      "Arbre enflammé",
+      "Hypostase Pyro"
+    ],
+    "droppedBy": [
+      "Arbre enflammé",
+      "Loup du Nord, Seigneur du Territoire des loups"
+    ],
+    "recipe": [
+      {
+        "items": [
+          {
+            "name": " Eclat de lazurite varunada",
+            "size": 1
+          },
+          {
+            "name": " Poudre d'Azoth",
+            "size": 3
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": " Eclat d'améthyste vajrada",
+            "size": 1
+          },
+          {
+            "name": " Poudre d'Azoth",
+            "size": 3
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "Eclat d'améthyste vajrada",
+            "size": 1
+          },
+          {
+            "name": " Poudre d'Azoth",
+            "size": 3
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "Eclat de jade shivada",
+            "size": 1
+          },
+          {
+            "name": " Poudre d'Azoth",
+            "size": 3
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "name": "Eclat de topaze prithiva",
+            "size": 1
+          },
+          {
+            "name": " Poudre d'Azoth",
+            "size": 3
+          }
+        ]
+      }
+    ]
+  }
+}
