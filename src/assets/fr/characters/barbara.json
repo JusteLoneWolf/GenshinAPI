@@ -1,0 +1,505 @@
+{
+  "characters": {
+    "amber": {
+      "title": "Star de la chanson",
+      "allegiance": "Église de Favonius",
+      "rarity": 4,
+      "weapon": "Catalyseur",
+      "element": "eau",
+      "birthday": "5/07",
+      "description": "Barbara est adulée de tous à Mondstadt. Pourtant, c'est dans un magazine qu'elle a découvert le terme « idole ».",
+      "images": {
+        "faceIcon": "https://genshin.honeyhunterworld.com/img/char/barbara_face_70.png",
+        "sideIcon": "https://genshin.honeyhunterworld.com/img/char/barbara_side_70.png",
+        "gachaCard": "https://genshin.honeyhunterworld.com/img/char/barbara_gacha_card_70.png",
+        "gachaSplash": "https://genshin.honeyhunterworld.com/img/char/barbara_gacha_splash.png",
+        "face": "https://genshin.honeyhunterworld.com/img/scr/char/10000014/face.png",
+        "halfFace": "https://genshin.honeyhunterworld.com/img/scr/char/10000014/half_face_70.png",
+        "profile": "https://genshin.honeyhunterworld.com/img/scr/char/10000014/profile_70.png",
+        "weaponPose": "https://genshin.honeyhunterworld.com/img/scr/char/10000014/weapon_70.png"
+      },
+      "misc": {
+        "nameCard": {
+          "name": "Barbara - Thérapeutique",
+          "rarity": 4,
+          "icon": "\thttps://genshin.honeyhunterworld.com/img/cardicon/i_7009.png",
+          "profileBackground":"https://genshin.honeyhunterworld.com/img/cardicon/i_7009_profile.png",
+          "partyBackground": "https://genshin.honeyhunterworld.com/img/cardicon/i_7009_party.png"
+        },
+        "food": {
+          "name": "Ragoût épicé",
+          "rarity": 2,
+          "effect":"Réduit la consommation d'endurance de tous les personnages de l'équipe de 25 % lors du sprint pendant 1 500 s. Ne s'applique qu'à vos personnages en mode multijoueur.",
+          "recipe": [
+            {
+              "name": "barbara",
+              "type": "character",
+              "size": 1
+            },
+            {
+              "name": "Viande crue",
+              "type": "ingredients",
+              "size": 2
+            },
+            {
+              "name": "Creme",
+              "type": "ingredients",
+              "size": 2
+            },
+            {
+              "name": "Gueule de loup",
+              "type": "ingredients",
+              "size": 1
+            }
+          ]
+        }
+      },
+      "stats": [
+        {
+          "level": 1,
+          "baseHealth": 821,
+          "baseAttack": 13,
+          "baseDefence": 56,
+          "pourcentAttack": 0,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 20,
+          "baseHealth": 2108,
+          "baseAttack": 34,
+          "baseDefence": 144,
+          "pourcentAttack": 0,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 40,
+          "baseHealth": 4076,
+          "baseAttack": 66,
+          "baseDefence": 279,
+          "pourcentAttack": 0,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 50,
+          "baseHealth": 5189,
+          "baseAttack": 84,
+          "baseDefence": 355,
+          "pourcentAttack": 6,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 60,
+          "baseHealth": 6448,
+          "baseAttack": 105,
+          "baseDefence": 394,
+          "pourcentAttack": 12,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 70,
+          "baseHealth": 7561,
+          "baseAttack": 123,
+          "baseDefence": 517,
+          "pourcentAttack": 12,
+          "rateCritic": 5,
+          "damageCritic": 50
+        },
+        {
+          "level": 80,
+          "baseHealth": 8674,
+          "baseAttack": 141,
+          "baseDefence": 593,
+          "pourcentAttack": 18,
+          "rateCritic": 5,
+          "damageCritic": 50
+        }
+      ],
+      "ascension": {
+        "levels": [
+          {
+            "level": "20+",
+            "items": [
+              {
+                "name": "Eclat de lazurite varunada",
+                "size": 1
+              },
+              {
+                "name": "Champignon anémophile",
+                "size": 3
+              },
+              {
+                "name": "Parchemin divinatoire",
+                "size": 3
+              },
+              {
+                "name": "Mora",
+                "size": 20000
+              }
+            ]
+          },
+          {
+            "level": "40+",
+            "items": [
+              {
+                "name": "Fragement de lazurite varunada",
+                "size": 3
+              },
+              {
+                "name": "Cœur d'eau pure",
+                "size": 2
+              },
+              {
+                "name": "Champignon anémophile",
+                "size": 10
+              },
+              {
+                "name": "Parchemin divinatoire",
+                "size": 15
+              },
+              {
+                "name": "Mora",
+                "size": 40000
+              }
+            ]
+          },
+          {
+            "level": "50+",
+            "items": [
+              {
+                "name": "Fragement de lazurite varunada",
+                "size": 6
+              },
+              {
+                "name": "Cœur d'eau pure",
+                "size": 4
+              },
+              {
+                "name": "Champignon anémophile",
+                "size": 20
+              },
+              {
+                "name": "Parchemin sigillé",
+                "size": 12
+              },
+              {
+                "name": "Mora",
+                "size": 40000
+              }
+            ]
+          },
+          {
+            "level": "60+",
+            "items": [
+              {
+                "name": "Morceau de lazurite varunada",
+                "size": 3
+              },
+              {
+                "name": "Cœur d'eau pure",
+                "size": 8
+              },
+              {
+                "name": "Champignon anémophile",
+                "size": 30
+              },
+              {
+                "name": "Parchemin sigillé",
+                "size": 18
+              },
+              {
+                "name": "Mora",
+                "size": 80000
+              }
+            ]
+          },
+          {
+            "level": "70+",
+            "items": [
+              {
+                "name": "Morceau de lazurite varunada",
+                "size": 6
+              },
+              {
+                "name": "Cœur d'eau pure",
+                "size": 12
+              },
+              {
+                "name": "Champignon anémophile",
+                "size": 45
+              },
+              {
+                "name": "Parchemin maudit",
+                "size": 12
+              },
+              {
+                "name": "Mora",
+                "size": 100000
+              }
+            ]
+          },
+          {
+            "level": "80+",
+            "items": [
+              {
+                "name": "Pierre de lazurite varunada",
+                "size": 6
+              },
+              {
+                "name": "Cœur d'eau pure",
+                "size": 20
+              },
+              {
+                "name": "Champignon anémophile",
+                "size": 60
+              },
+              {
+                "name": "Parchemin maudit",
+                "size": 24
+              },
+              {
+                "name": "Mora",
+                "size": 120000
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "level": 2,
+            "items": [
+              {
+                "name": "Enseignement de la Liberté",
+                "size": 3
+              },
+              {
+                "name": "Parchemin divinatoire",
+                "size": 6
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 2
+              },
+              {
+                "name": "Parchemin sigillé",
+                "size": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 4
+              },
+              {
+                "name": "Parchemin sigillé",
+                "size": 4
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 6
+              },
+              {
+                "name": "Parchemin sigillé",
+                "size": 6
+              }
+            ]
+          },
+          {
+            "level": 6,
+            "items": [
+              {
+                "name": "Guide de la Liberté",
+                "size": 9
+              },
+              {
+                "name": "Parchemin sigillé",
+                "size": 9
+              }
+            ]
+          },
+          {
+            "level": 7,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 4
+              },
+              {
+                "name": "Parchemin maudit",
+                "size": 4
+              },
+              {
+                "name": "Vertèbre de Borée",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "level": 8,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 6
+              },
+              {
+                "name": "Parchemin maudit",
+                "size": 6
+              },
+              {
+                "name": "Vertèbre de Borée",
+                "size": 1
+              }
+            ]
+          },
+          {
+            "level": 9,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 12
+              },
+              {
+                "name": "Parchemin maudit",
+                "size": 9
+              },
+              {
+                "name": "Vertèbre de Borée",
+                "size": 2
+              }
+            ]
+          },
+          {
+            "level": 10,
+            "items": [
+              {
+                "name": "Philosophie  de la Liberté",
+                "size": 16
+              },
+              {
+                "name": "Parchemin maudit",
+                "size": 12
+              },
+              {
+                "name": "Vertèbre de Borée",
+                "size": 2
+              },
+              {
+                "name": "Couronne de la sagesse",
+                "size": 1
+              }
+            ]
+          }
+        ]
+      },
+      "builds": [
+        {
+          "type": "DPS",
+          "items": [
+            {
+              "weapon": "Arc d'Amos",
+              "artefact": {
+                "set": "Bande vagabonde",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "ATK%",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            },
+            {
+              "weapon": "Arc royal",
+              "artefact": {
+                "set": "Bande vagabonde",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "ATK%",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Support",
+          "items": [
+            {
+              "weapon": "Dernière corde",
+              "artefact": {
+                "set": "Ancien rituel royal",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "Recharge d'énergie",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            },
+            {
+              "weapon": "Arc de chasse de Favonius",
+              "artefact": {
+                "set": "Exilé",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "Recharge d'énergie",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

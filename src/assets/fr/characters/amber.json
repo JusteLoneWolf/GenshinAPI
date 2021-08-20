@@ -6,7 +6,7 @@
       "rarity": 4,
       "weapon": "Arc",
       "element": "feu",
-      "birthday": "10/07",
+      "birthday": "10/08",
       "description": "Une jeune fille pleine d'énergie. Elle est la seule et unique Éclaireuse de l'Ordre de Favonius.",
       "images": {
         "faceIcon": "https://genshin.honeyhunterworld.com/img/char/amber_face_70.png",
@@ -397,7 +397,99 @@
             ]
           }
         ]
-      }
+      },
+      "builds": [
+        {
+          "type": "DPS",
+          "items": [
+            {
+              "weapon": "Arc d'Amos",
+              "artefact": {
+                "set": "Bande vagabonde",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "ATK%",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            },
+            {
+              "weapon": "Arc royal",
+              "artefact": {
+                "set": "Bande vagabonde",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "ATK%",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Support",
+          "items": [
+            {
+              "weapon": "Dernière corde",
+              "artefact": {
+                "set": "Ancien rituel royal",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "Recharge d'énergie",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            },
+            {
+              "weapon": "Arc de chasse de Favonius",
+              "artefact": {
+                "set": "Exilé",
+                "stats": {
+                  "main": [
+                    "HP",
+                    "ATK",
+                    "Recharge d'énergie",
+                    "PyroDMG",
+                    "ATK%"
+                  ],
+                  "sub": [
+                    "ATK%",
+                    "Maîtrise élémentaire",
+                    "Recharge d'énergie"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }
