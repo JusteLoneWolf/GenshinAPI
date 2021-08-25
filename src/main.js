@@ -1,3 +1,3 @@
 module.exports = {
-    Character: require('./lib/Character')
+    Character: require('./Module/lib/Character')
 }

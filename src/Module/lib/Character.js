@@ -6,15 +6,12 @@ class Character {
 
 
     async getCharacter(name){
-        //fs.readFile(`../src/assets/${this.lang}/characters/`).then((rowData) =>{
-           // const data = JSON.parse(rowData)
-        let data = require(`../assets/fr/characters/${name}.json`)
+        let data = require(`../../assets/fr/characters/${name}.json`)
         let levels = data.characters[name.toLowerCase()].ascension.levels
-
         for(const level of levels){
             for ( const item of level.items) {
-                if ( require('../assets/fr/Items/items.json')[item.name.toLowerCase()] ) {
-                    const {rarity,icon,lootBy,droppedBy,recipe} = require('../assets/fr/Items/items.json')[item.name.toLowerCase()]
+                if ( require('../../assets/fr/Items/items.json')[item.name.toLowerCase()] ) {
+                    const {rarity,icon,lootBy,droppedBy,recipe} = require('../../assets/fr/Items/items.json')[item.name.toLowerCase()]
                     Object.assign(item, {
                         data: {
                             rarity,
@@ -25,7 +22,6 @@ class Character {
                         }
                     })
                 }
-
             }
         }
         return data.characters[name.toLowerCase()]
